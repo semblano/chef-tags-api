@@ -45,7 +45,7 @@ We can make use o knife search capabilities and provide more information to filt
 http://localhost:9999/api?env=dev&role=web_server
 ```
 
-The previous 'query' will search for all nodes on the dev environemnt that have the 'web_server' role set up. The result will be like this one:
+The previous _'query'_ will search for all nodes on the dev environment that have the _**'web-server'**_ role set up. The result will be like this one:
 
 ``` Python
 {
@@ -59,7 +59,7 @@ Supported filters:
 * env
 * role
 * zone
-* name
+* node (name)
 
 Contributing
 ------------
