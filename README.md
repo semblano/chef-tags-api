@@ -37,6 +37,30 @@ The response will be a JSON like the following:
 }
 ```
 
+### Listing nodes tags based on a custom query:
+
+We can make use o knife search capabilities and provide more information to filter/narrow down our search:
+
+```
+http://localhost:9999/api?env=dev&role=web_server
+```
+
+The previous 'query' will search for all nodes on the dev environemnt that have the 'web_server' role set up. The result will be like this one:
+
+``` Python
+{
+        "node1": [tags_list"],
+        "node2": [tags_list"]
+}
+```
+
+Supported filters:
+
+* env
+* role
+* zone
+* name
+
 Contributing
 ------------
 
@@ -50,4 +74,4 @@ Contributing
 License and Authors
 -------------------
 
-Authors: Marcus Semblano <msemblano(at)gmail.com>
+Authors: Marcus Semblano 
