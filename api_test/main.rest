@@ -1,0 +1,12 @@
+tests:
+- id: ping
+  path: /api
+  expect:
+    http: 200
+
+- id: load-fake-environment
+  path: /api/fake-env-laws
+  expect:
+    http: 200
+    data:
+      fake-env-laws: null 
