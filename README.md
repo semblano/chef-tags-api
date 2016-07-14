@@ -6,7 +6,7 @@ Python REST api to fetch node TAGS information directly from CHEF server and ret
 Requirements
 ------------
 
-To install the requirements, just run: pip install --upgrade -r requirements.txt
+To install all the required Python modules, just run: pip install --upgrade -r requirements.txt
 
 ### Python Bottle Framework
 
